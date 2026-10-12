@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+# (uv.lock is intentionally NOT ignored: it must be committed)
+
+# Data / generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/output/**
+!data/output/.gitkeep
+
+# Model weights / caches
+.cache/
+*.pt
+*.bin
+*.safetensors
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
